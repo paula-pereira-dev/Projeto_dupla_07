@@ -1,0 +1,253 @@
+body
+{
+    background-color: #323232;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;    
+}
+
+header 
+{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex: 1;
+      a {
+        color: white;
+        font-size: 42px;
+        text-decoration: none;
+      }
+    }
+  }
+  #LOGO 
+  {
+    height: 200px;
+    width: 200px;
+  }
+
+  nav a:hover {
+    color: #ffffff; /* Cor azul ao passar o mouse */
+    background-color: #4daedc; /* Fundo claro ao passar o mouse */
+    border-radius: 42px;
+
+  #LOGO {
+    height: 200px;
+    width: 200px;
+  }
+
+}
+/* estilização da borda ao redor do texto*/
+nav a {
+    text-decoration: none;
+    color: #fefefe; /* Cor inicial do link */
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+/* Efeito hover - muda para azul e adiciona fundo claro */
+nav a:hover {
+    color: #ffffff; /* Cor azul ao passar o mouse */
+    background-color: #4daedc; /* Fundo claro ao passar o mouse */
+    border-radius: 5px;
+}
+
+
+p
+{
+    color: #fefefe;
+}
+.arrow-up {
+    width: 0; 
+    height: 0; 
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    
+    border-bottom: 25px solid white;
+    margin-top: 10px;
+  }
+  
+  .arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    
+    border-top: 25px solid white;
+  }
+  
+  .retangulotempo
+  {
+    height: 30px;
+    width: 98%;
+    margin-left: 1%;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  .trianguloscima, .anobaixo{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 250px;
+    gap: 300px;
+  }
+  
+  .triangulosbaixo, .anocima{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 250px;
+    gap: 300px;
+  }
+  
+  .ano{
+    font-size: 30px;
+  }
+  
+  .linhatempo{
+    display: flex;
+    gap: 300px;
+    justify-content: space-around;
+    align-items: end;
+    margin-left: 250px;
+    .textostempo{
+      /* border: white 2px solid; */
+      width: 250px;
+      
+    }
+  }
+  
+  .linhatempobaixo{
+    margin-top: 10px;
+    display: flex;
+    gap: 300px;
+    justify-content: space-around;
+    align-items: justify;
+    margin-right: 200px;
+    .textotempobaixo p{
+      /* border: white 2px solid; */
+      width: 220px;
+      height: 100px;
+      
+      
+    }
+  }
+  /* centralização do "gostou, deixe seu comentário*/
+  .container
+  {
+   display: flex;
+   justify-content:flex-end;
+   justify-content: space-around -20px;
+   text-align: center;
+   color: #D9D9D9;
+   width: 90%;
+   
+  }
+
+#LOGO2
+{
+    align-items: center;
+}
+
+#titoform
+{
+ text-align: end;
+}
+#form2 {
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    margin: -5px auto;
+    padding: 25px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    float: right;
+}
+
+#sugestao
+  {
+    width: 98%;
+  }
+
+  #imgcapa
+  {
+    width: 100%;
+  }
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 10px;
+    
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+textarea {
+    width: calc(50% - 10px); /* Largura de 50% para Nome e Sobrenome */
+    padding: 12px;
+    margin-right: 1px; /* Espaço interno entre Nome e Sobrenome */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+
+input[type="text"]:last-child {
+    margin-right: 0; /* Remove espaço do último input (Sobrenome) */
+}
+
+textarea {
+    width: 98%;
+    resize: vertical;
+}
+
+input[type="email"],
+input[type="tel"],
+input[type="date"]
+
+{
+    width: 98%;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 200px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    width: 98%;
+    
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    padding-top: 60px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: space-evenly;
+    div {
+      font-size: 30px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex: 1;
+    }
+  }
+
+  
+
+  

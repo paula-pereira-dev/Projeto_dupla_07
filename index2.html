@@ -6,105 +6,186 @@
 <meta charset="UTF-8">
 
 <title>Overall Blog</title>
+<link rel="stylesheet" href="./assets/style.css">
 
 </head>
 
 
 
 <body>
-<main>
-                                       <!--Navegação do cabeçalho-->
-<nav>
-    <a href="">Home</a>|
-    <a href="">História</a>|
-    <a href="">Linha do tempo</a>|
-    <a href="">Categorias</a>
-</nav>
 
-<article>
-    <img src="./IMG/Site capa.png" alt="Arnold Schwarzenegger e Ronnie Colleman">
-</article>
-
-<header>     
-    <h3>Linha do Tempo</h3>
-</header>
-   
-    <form>
-            <tbody>               <!--Linha do tempo das competições-->
-                <table>            
-                <tr>
-                    <td><strong>1946</strong> <br> Mr. America - Um dos primeiros campeonatos de bodybuilding modernos, ajudando a popularizar o esporte.</td>
-
-                    <td>O primeiro campeonato esportivo de fisiculturismo, realizado pela NABBA. O título de Mr. Universe só passou a ser utilizado em 1950.<strong><br>1948</strong>.</td>
-
-                    <td><strong>1965</strong><br>O Mr. Olympia foi criado em 18 de setembro de 1965, chancelado pela IFBB, com seu primeiro show na Academia de Música do Brooklyn.</td>
-
-                    <td>Arnold Classic - Fundado por Arnold Schwarzenegger, é um dos principais eventos internacionais de bodybuilding.<strong><br>1971</td>
-
-                    <td><strong>1990</strong><br>NABBA Universe - Continuação do prestígio da NABBA, com uma abordagem focada no bodybuilding natural.</td>
-
-                    <td>Classic Physique Division - Introduzido pelo Mr. Olympia para promover uma estética mais clássica e simétrica.<br><strong>2016</strong></td>
-                </tr>         
-            </tbody>
-            
-        </table>
-    </form>
-
+  <!--Navegação do cabeçalho-->
+      <header>
+    <div>
+       <img id="LOGO" src="./assets/IMG/CaioLogo1.png" alt="Logo branco escrito Overall Blog"/>
        
-        <br>
-            <h3> Gostou do nosso site?<br>   Deixe seu feedback</h3>
+    </div>
 
-    <form >
-        <table>
-            <tbody>
-            <tr>
-                <td><label for="nome"></label></td>
-                <td><input type="text" id="nome" name="nome" placeholder="Nome" required></td> 
+    <nav>
+     <a href="./index.html" class="MENUNAV" target="_blank">Home</a>
+     <a href="#bloco2" class="MENUNAV" target="_blank">História</a>
+     <a href="#bloco3" class="MENUNAV" target="_blank">Diferenças</a>
+     <a href="./index2.html" class="MENUNAV">Linha do tempo</a>
+  </nav>
 
-                <td><label for="sobrenome"></label></td>
-                <td><input type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome"></td>
+
+</header>
+
+<main>
+
+    <img id="imgcapa" src="./assets/IMG/Site capa.png" alt="Fisiculturistas Arnold e Roonie">
+
+<div class="linhatempo">
+    <div class="textostempo">
+      <p>
+        O primeiro campeonato esportivo de fisiculturismo, realizado em 1948
+        pela NABBA. O título de Mr. Universe só passou a ser utilizado em
+        1950, com Steve Reeves como o primeiro vencedor
+      </p>
+    </div>
+    <div class="textostempo">
+      <p>
+        Arnold Classic - Fundado por Arnold Schwarzenegger, é um dos
+        principais eventos internacionais de bodybuilding.
+      </p>
+    </div>
+    <div class="textostempo">
+      <p>
+        Classic Physique Division - Introduzido pelo Mr. Olympia para promover
+        uma estética mais clássica e simétrica.
+      </p>
+    </div>
+  </div>
+  <div class="anocima">
+    <div class="ano">
+      <p>1946</p>
+    </div>
+    <div class="ano">
+      <p>1965</p>
+    </div>
+    <div class="ano">
+      <p>1990</p>
+    </div>
+  </div>
+  <div class="trianguloscima">
+    <div class="arrow-up"></div>
+    <div class="arrow-up"></div>
+    <div class="arrow-up"></div>
+  </div>
+  <div class="retangulotempo"></div>
+  <div class="triangulosbaixo">
+    <div class="arrow-down"></div>
+    <div class="arrow-down"></div>
+    <div class="arrow-down"></div>
+  </div>
+  <div class="anobaixo">
+    <div class="ano">
+      <p>1948</p>
+    </div>
+    <div class="ano">
+      <p>1971</p>
+    </div>
+    <div class="ano">
+      <p>2016</p>
+    </div>
+  </div>
+  <div class="linhatempobaixo">
+    <div class="textotempobaixo">
+      <p>
+        Mr. America - Um dos primeiros campeonatos de bodybuilding modernos,
+        ajudando a popularizar o esporte.
+      </p>
+    </div>
+    <div class="textotempobaixo">
+      <p>
+        O Mr. Olympia foi o segundo evento de grande nome no fisiculturismo,
+        criado em 18 de setembro de 1965 e chancelado pela IFBB, federação
+        criada por Joe Weider, com seu primeiro show na Academia de Música do
+        Brooklin.
+      </p>
+    </div>
+    <div class="textotempobaixo">
+      <p>
+        NABBA Universe - Continuação do prestígio da NABBA, com uma abordagem
+        focada no bodybuilding natural.
+      </p>
+    </div>
+  </div>
+            <div class="container">
+            <h3 class="text">Gostou do nosso site?<br>Deixe seu feedback</h3>
+            </div>
+
+            <div>
+<form id="form2">
+    <table>
+        <tbody>
+            <!-- Nome e Sobrenome lado a lado -->
+            <tr>
+                <td colspan="2">
+                    <input type="text" id="nome" name="nome" placeholder="Nome" required>
+                    <input type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome">
+                </td>
             </tr>
 
+            <!-- E-mail -->
+             
             <tr>
-                <td><label for="email"></label></td>
-                <td><input type="email" id="email" name="email" placeholder="E-mail" required></td>
-            </tr>
-            <tr>
-                <td><label for="telefone"></label></td>
-                <td><input type="telefone" id="telefone" name="telefone" placeholder="Telefone"></td>
-            </tr>
-
-            <tr>
-                <td><label for="date"></label></td>
-                <td><input type="date" id="date" name="date" required></td>
+                <td colspan="2">
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                </td>
             </tr>
 
+            <!-- Telefone -->
             <tr>
-                <td><label for="text"></label></td>
-                <td><input type="text" id="sugestao" name="sugestao" placeholder="Assunto"></td>
+                <td colspan="2">
+                    <input type="tel" id="telefone" name="telefone" placeholder="Telefone">
+                </td>
             </tr>
+
+            <!-- Data de nascimento -->
             <tr>
-                <td><label for="mensagem"></label></td>
-                <td><textarea id="textarea" name="mensagem" rows="4" cols="50" placeholder="Escreva sua mensagem" required></textarea></td>
+                <td colspan="2">
+                    <input type="date" id="date" name="date" placeholder="Data de nascimento" required>
+                </td>
             </tr>
+
+            <!-- Assunto -->
             <tr>
-                <td colspan="3">
+                <td colspan="2">
+                    <input type="text" id="sugestao" name="sugestao" placeholder="Assunto">
+                </td>
+            </tr>
+
+            <!-- Sugestão -->
+            <tr>
+                <td colspan="2">
+                    <textarea id="textarea" name="mensagem" rows="4" placeholder="Sugestão" required></textarea>
+                </td>
+            </tr>
+
+            <!-- Botão de Enviar -->
+            <tr>
+                <td colspan="2">
                     <button type="submit">Enviar</button>
                 </td>
             </tr>
-            </tbody>
-        </table>
-    </form>
+        </tbody>
+    </table>
+</form>
+</div>
 
-    <footer>
-        <small>
-            &copy; Overall Blog 2024
-            Sobre nós
-            Redes sociais
-        </small>
-    </footer>
+<div id="LOGO2">
+    <img src="./assets/IMG/CaioLogo1.png" alt="Logo branco escrito Overall Blog"/>
+ </div>
 
-    </main>
-</body>
+</main>
+<hr>
+<footer id="Footer">
+    <hr>
+    <div>Copyright &copy2024</div>
+    <div>Sobre nós</div>
+    <div>Redes sociais</div>
+  </footer>
 
-</html>
+</body>    
+</html>  
