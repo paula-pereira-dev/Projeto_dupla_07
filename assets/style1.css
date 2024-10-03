@@ -37,6 +37,12 @@ header {
   }
 }
 
+nav a:hover {
+  color: #ffffff; /* Cor azul ao passar o mouse */
+  background-color: #4daedc; /* Fundo claro ao passar o mouse */
+  border-radius: 5px;
+}
+
 main {
   section {
     &.bloco2 {
@@ -154,13 +160,6 @@ main {
     padding-left: 150px;
   }
 
-  /* #TextoNatural{
-        clear: right;
-    }
-
-    #TextoLivre{
-        clear: left;
-    } */
 }
 
 footer {
