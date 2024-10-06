@@ -23,7 +23,6 @@ body {
 header {
   display: flex;
   align-items: center;
-  /*justify-content: space-between; */
   gap: 15px;
   nav {
     display: flex;
@@ -42,6 +41,7 @@ nav a:hover {
   color: #ffffff; /* Cor azul ao passar o mouse */
   background-color: #4daedc; /* Fundo claro ao passar o mouse */
   border-radius: 5px;
+  padding: 10px 20px;
 }
 
 main {
